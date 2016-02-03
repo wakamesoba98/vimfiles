@@ -1,0 +1,27 @@
+syntax on
+colorscheme torte
+set number
+set ambiwidth=double
+
+" インデント
+set autoindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+" 逆インデント
+nnoremap <S-Tab> <<
+nnoremap <Tab> >>
+inoremap <S-Tab> <C-d>
+vnoremap <S-Tab> <
+vnoremap <Tab> >
+
+" ファイルオープン
+set autochdir
+set browsedir=buffer
+set wildmode=list:longest
+
+" 分割移動
+nnoremap zs :split<CR>
+nnoremap zv :vsplit<CR>
+nnoremap zo <C-w>w
