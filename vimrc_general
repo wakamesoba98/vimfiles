@@ -1,7 +1,6 @@
 syntax on
-colorscheme torte
+colorscheme slate
 set number
-set ambiwidth=double
 
 " インデント
 set autoindent

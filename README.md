@@ -1,10 +1,12 @@
 Vimfiles
 =======
 
-.vimrc :
-```
-source ~/vimfiles/vimrc_general
-source ~/vimfiles/vimrc_neobundle
-source ~/vimfiles/vimrc_markdown
-source ~/vimfiles/vimrc_memolist
-```
+My Vim config files
+
+## Plugins
+
+* vim-markdown
+* previm
+* open-browser
+* memolist
+* vim-table-mode

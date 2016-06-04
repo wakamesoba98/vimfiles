@@ -8,7 +8,10 @@ NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'glidenote/memolist.vim'
+NeoBundle 'dhruvasagar/vim-table-mode'
 
 call neobundle#end()
 
 filetype plugin indent on
+
+let g:neobundle#log_filename = $HOME . "/.vim/neobundle.log"
