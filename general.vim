@@ -1,5 +1,5 @@
 syntax on
-colorscheme slate
+colorscheme torte
 set number
 
 " indent

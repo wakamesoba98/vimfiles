@@ -4,6 +4,7 @@ endif
 
 call neobundle#begin(expand('~/.vim/bundle/'))
 
+NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
@@ -15,3 +16,7 @@ call neobundle#end()
 filetype plugin indent on
 
 let g:neobundle#log_filename = $HOME . "/.vim/neobundle.log"
+
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
