@@ -1,6 +1,7 @@
 syntax on
 colorscheme torte
 set number
+set hlsearch
 
 " indent
 set autoindent
@@ -24,3 +25,10 @@ set wildmode=list:longest
 nnoremap zs :split<CR>
 nnoremap zv :vsplit<CR>
 nnoremap zo <C-w>w
+
+" binary editor
+nnoremap bth :%!xxd<CR>
+nnoremap htb :%!xxd -r<CR>
+
+" vimdiff
+set diffopt=vertical
